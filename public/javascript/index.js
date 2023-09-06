@@ -131,12 +131,12 @@ window.addEventListener("load", () => {
       charactersAPI
         .createOneRegister(character)
         .then((character) => {
-          document.getElementById("delete-one").style.backgroundColor = "green";
+          document.getElementById("send-data").style.backgroundColor = "green";
         })
         .catch((error) => {
           // Handle errors (e.g., display an error message)
           console.error("Error deleting 1 character:", error);
-          document.getElementById("delete-one").style.backgroundColor = "red";
+          document.getElementById("send-data").style.backgroundColor = "red";
         });
     });
 });
