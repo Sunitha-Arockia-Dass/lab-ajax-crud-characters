@@ -1,0 +1,74 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Han Solo",
+      "occupation": "Smuggler",
+      "weapon": "Blaster Pistol",
+      "cartoon": true
+    },
+    {
+      "id": 2,
+      "name": "Luke Skywalker",
+      "occupation": "Jedi Knight",
+      "weapon": "Lightsaber",
+      "cartoon": false
+    },
+    {
+      "id": 3,
+      "name": "Sponge Bob",
+      "occupation": "Lives under the sea",
+      "weapon": "Crabby Patty",
+      "cartoon": true
+    },
+    {
+      "name": " Kanna",
+      "occupation": "Lives under the sea",
+      "weapon": "Crabby",
+      "cartoon": true,
+      "id": 4
+    },
+    {
+      "name": " Jinnu",
+      "occupation": "Lives under the sea",
+      "weapon": "Crabby",
+      "cartoon": true,
+      "id": 5
+    },
+    {
+      "name": " Bava",
+      "occupation": "Lives under the sea",
+      "weapon": "Crabby",
+      "cartoon": true,
+      "id": 6
+    },
+    {
+      "name": " Suni",
+      "occupation": "Lives under the sea",
+      "weapon": "Crabby",
+      "cartoon": true,
+      "id": 7
+    },
+    {
+      "name": " Moni",
+      "occupation": "Lives under the sea",
+      "weapon": "Crabby",
+      "cartoon": true,
+      "id": 8
+    },
+    {
+      "name": " Dass",
+      "occupation": "Lives under the sea",
+      "weapon": "Crabby",
+      "cartoon": true,
+      "id": 9
+    },
+    {
+      "name": "",
+      "occupation": "Home-maker",
+      "cartoon": false,
+      "weapon": "Love",
+      "id": 10
+    }
+  ]
+}
