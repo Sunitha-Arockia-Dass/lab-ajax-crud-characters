@@ -29,7 +29,7 @@ window.addEventListener("load", () => {
             characterOccupation.innerHTML = ` <b>Character Occupation:</b>${character.occupation}`;
 
             const characterCartoon = document.createElement("div");
-            characterCartoon.innerHTML = ` <b>Is a Cartoon?:</b>${character.cartoon}`;
+            characterCartoon.innerHTML = ` <b>Is a Cartoon?:</b>s a Cartoon?:</b>${character.cartoon?"yes": "No"}`;
 
             const characterWeapon = document.createElement("div");
             characterWeapon.innerHTML = ` <b>Character Weapon:</b>${character.weapon}`;
@@ -58,7 +58,7 @@ window.addEventListener("load", () => {
         .then((character) => {
           characterName.innerHTML = ` <b>Character Name:</b>${character.name}`;
           characterOccupation.innerHTML = ` <b>Character Occupation:</b>${character.occupation}`;
-          characterCartoon.innerHTML = ` <b>Is a Cartoon?:</b>${character.cartoon}`;
+          characterCartoon.innerHTML = ` <b>Is a Cartoon?:</b>${character.cartoon?"yes": "No"}`;
           characterWeapon.innerHTML = ` <b>Character Weapon:</b>${character.weapon}`;
         })
         .catch((error) => {
